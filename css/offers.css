@@ -6,11 +6,14 @@
   padding: 24px 16px;
   border-radius: 16px;
   text-align: center;
+  background-color: black;
 }
 .card header {
   display: block;
   background-color: transparent;
   position: static;
+  padding: 0;
+  margin-bottom: 24px;
 }
 
 .card header p {
