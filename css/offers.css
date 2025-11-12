@@ -4,10 +4,10 @@
   align-items: center;
   gap: 24px;
 }
-.card {
+.offers-cards .card {
   color: var(--text-secondary-color);
   width: 312px;
-  height: 288px;
+  height: 280px;
   box-sizing: border-box;
   padding: 24px 16px;
   border-radius: 16px;
