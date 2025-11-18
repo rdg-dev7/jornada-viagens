@@ -3,17 +3,19 @@
   flex-direction: column;
   align-items: center;
   gap: 24px;
+  margin-bottom: 88px;
 }
+
 .offers-cards .card {
   color: var(--text-secondary-color);
-  width: 312px;
-  height: 280px;
+  background-color: black;
   box-sizing: border-box;
   padding: 24px 16px;
   border-radius: 16px;
   text-align: center;
+  width: 312px;
+  height: 288px;
 }
-
 .card header {
   display: block;
   background-color: transparent;
@@ -30,7 +32,7 @@
 .card header h3 {
   font-size: 40px;
   font-weight: var(--title-weight);
-  margin: 8px 0 0;
+  margin: 8px 0px 0px;
 }
 
 .card header span {
@@ -69,23 +71,27 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .card {
-    width: 420px;
+  .offers-cards .card {
+    width: 588px;
     height: 308px;
+    margin-bottom: 88px;
   }
 
-  .card header h3 {
-    font-size: 48px;
-  }
-  .card header span {
-    font-size: 32px;
-  }
+.card header h3 {
+  font-size: 48px;
+  font-weight: var(--title-weight);
+  margin: 8px 0 0;
+}
+.card header span {
+  font-size: 30px;
+  margin-top: 24px;
+  display: inline-block;
 }
 
 @media screen and (min-width: 1440px) {
   .card {
     width: 588px;
-    height: 308px;
+    
   }
 }
 
@@ -93,6 +99,5 @@
   .offers-cards {
     width: 1250px;
     margin: 0 auto;
-    
   }
 }
