@@ -87,7 +87,7 @@
   margin-top: 24px;
   display: inline-block;
 }
-
+}
 @media screen and (min-width: 1440px) {
   .card {
     width: 588px;
