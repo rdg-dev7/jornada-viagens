@@ -5,3 +5,34 @@
   padding: 0;
   margin-bottom: 24px;
 }
+
+.item .img-item.tokyo {
+  width: 312px;
+  height: 360px;
+  background-image: url(../assets/Tokyo-mobile.jpg);
+  background-size: cover;
+  margin: 32px auto;
+}
+
+.destination-items .item header h4 {
+  width: 312px;
+  font-weight: var(--title-weight);
+  font-size: 28px;
+  margin: 24px auto;
+}
+
+.destination-items .item p {
+  width: 312px;
+  margin: auto;
+  font-weight: var(--text-weight);
+  font-size: 20px;
+}
+
+.destination-items .item a {
+  text-align: center;
+}
+
+.destination-items .item .button {
+  width: 312px;
+  margin: 24px 60px;
+}
