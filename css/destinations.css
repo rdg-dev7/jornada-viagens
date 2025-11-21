@@ -84,12 +84,6 @@
     margin: 24px 180px;
   }
 }
-
-@media screen and (min-width: 1440px) {
-  .destination-items {
-    display: flex;
-    flex-direction: row;
-    width: 1200px;
-    
-  }
-}
+ @media screen and (min-width: 1440px) {
+ 
+ 
