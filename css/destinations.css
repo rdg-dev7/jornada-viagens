@@ -86,8 +86,10 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .item .img-item. {
+  .destination-items {
     display: flex;
     flex-direction: row;
+    width: 1200px;
+    
   }
 }
